@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "id": "1ada8e2f-942a-4839-b4dc-5d47137696ed",
+    "title": "week2 assignments",
+    "completed": false,
+    "description": "complete week2 today"
+  },
+  {
+    "id": "6b863c39-9917-4715-b893-c78dfe7450e1",
+    "title": "exercise",
+    "completed": true,
+    "description": "chest arms day"
+  }
+]

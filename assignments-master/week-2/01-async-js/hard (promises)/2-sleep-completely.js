@@ -5,6 +5,16 @@
  */
 
 function sleep(milliseconds) {
+  let promise = new Promise(function (resolve, reject) {
+    if (milliseconds < 0) {
+      reject(new Error("Invalid input"));
+    } else {
+      setTimeout(function () {
+        resolve();
+      }, milliseconds);
+    }
+  });
+  return promise;
 }
 
 module.exports = sleep;
